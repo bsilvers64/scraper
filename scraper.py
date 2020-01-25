@@ -38,3 +38,4 @@ for pagecount in range(2,11):
 
 f.close()
 doc.save("comp_data.docx")
+print("success !! data scraped")
