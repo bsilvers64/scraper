@@ -1,0 +1,522 @@
+[
+    {
+        "Announcement_Date": "10-01-2020 ",
+        "Effective_Date": " 23-01-2020 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " Rs.5.0000 per share(500%)Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "30-09-2019 ",
+        "Effective_Date": " 17-10-2019 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " Rs.5.0000 per share(500%)Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "10-10-2019 ",
+        "Effective_Date": " 17-10-2019 ",
+        "Dividend_Type": " Special ",
+        "Dividend_percentage": " 4000.00 ",
+        "Remarks": " Rs.40.0000 per share(4000%)Special Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "28-06-2019 ",
+        "Effective_Date": " 16-07-2019 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " Rs.5.0000 per share(500%)Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "12-04-2019 ",
+        "Effective_Date": " 04-06-2019 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 1800.00 ",
+        "Remarks": " Rs.18.0000 per share(1800%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "31-12-2018 ",
+        "Effective_Date": " 17-01-2019 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 400.00 ",
+        "Remarks": " Rs.4.0000 per share(400%)Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "11-10-2018 ",
+        "Effective_Date": " 23-10-2018 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 400.00 ",
+        "Remarks": " Rs.4.0000 per share(400%)Second Interim Dividend. ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "29-06-2018 ",
+        "Effective_Date": " 17-07-2018 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 400.00 ",
+        "Remarks": " Rs.4.0000 per share(400%)Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "19-04-2018 ",
+        "Effective_Date": " 31-05-2018 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 2900.00 ",
+        "Remarks": " Rs.29.0000 per share(2900%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "11-01-2018 ",
+        "Effective_Date": " 22-01-2018 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 700.00 ",
+        "Remarks": " Rs.7.0000 per share(700%)Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "12-10-2017 ",
+        "Effective_Date": " 25-10-2017 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 700.00 ",
+        "Remarks": " Rs.7.0000 per share(700%)Second Interim Dividend. ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "13-07-2017 ",
+        "Effective_Date": " 24-07-2017 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 700.00 ",
+        "Remarks": " Rs.7.0000 per share(700%)Interim ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "24-04-2017 ",
+        "Effective_Date": " 13-06-2017 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 2750.00 ",
+        "Remarks": " Rs.27.5000 per share(2750%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "12-01-2017 ",
+        "Effective_Date": " 23-01-2017 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 650.00 ",
+        "Remarks": " Rs.6.5000 per ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "13-10-2016 ",
+        "Effective_Date": " 24-10-2016 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 650.00 ",
+        "Remarks": " Rs.6.5000 per share(650%)Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "14-07-2016 ",
+        "Effective_Date": " 25-07-2016 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 650.00 ",
+        "Remarks": " Rs.6.5000 per share(650%)Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "18-04-2016 ",
+        "Effective_Date": " 06-06-2016 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 2700.00 ",
+        "Remarks": " Rs.27.0000 per share(2700%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "12-01-2016 ",
+        "Effective_Date": " 21-01-2016 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 550.00 ",
+        "Remarks": " Rs.5.5000 per share(550%)Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "13-10-2015 ",
+        "Effective_Date": " 23-10-2015 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 550.00 ",
+        "Remarks": " Rs.5.5000 per share(550%)Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "08-07-2015 ",
+        "Effective_Date": " 20-07-2015 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 550.00 ",
+        "Remarks": " Rs.5.5000 per share(550%)Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "16-04-2015 ",
+        "Effective_Date": " 05-06-2015 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 2400.00 ",
+        "Remarks": " Rs.24.0000 per share(2400%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "15-01-2015 ",
+        "Effective_Date": " 27-01-2015 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " Rs.5.0000 per share(500%)Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "16-10-2014 ",
+        "Effective_Date": " 29-10-2014 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " Rs.5.0000 per share(500%)Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "16-07-2014 ",
+        "Effective_Date": " 28-07-2014 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " Rs.5.0000 per share(500%)Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "17-07-2014 ",
+        "Effective_Date": " 28-07-2014 ",
+        "Dividend_Type": " Special ",
+        "Dividend_percentage": " 4000.00 ",
+        "Remarks": " Rs.40.0000 per share(4000%)Special Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "16-04-2014 ",
+        "Effective_Date": " 06-06-2014 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 2000.00 ",
+        "Remarks": " Rs.20.0000 per share(2000%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "16-01-2014 ",
+        "Effective_Date": " 27-01-2014 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 400.00 ",
+        "Remarks": " Rs.4.0000 per share(400%)Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "15-10-2013 ",
+        "Effective_Date": " 25-10-2013 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 400.00 ",
+        "Remarks": " Rs.4.0000 per share(400%)Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "18-07-2013 ",
+        "Effective_Date": " 29-07-2013 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 400.00 ",
+        "Remarks": " Rs.4.0000 per share(400%)Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "17-04-2013 ",
+        "Effective_Date": " 06-06-2013 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 1300.00 ",
+        "Remarks": " Rs.13.0000 per share(1300%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "14-01-2013 ",
+        "Effective_Date": " 23-01-2013 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Rs.3.0000 per share(300%)Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "19-10-2012 ",
+        "Effective_Date": " 31-10-2012 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Rs.3.00 per share (300%) Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "12-07-2012 ",
+        "Effective_Date": " 23-07-2012 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Rs.3.00 per share(300%)Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "23-04-2012 ",
+        "Effective_Date": " 07-06-2012 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 1600.00 ",
+        "Remarks": " Rs. 8/- per share (800%) Final Dividend & Rs. 8/- per share (800%) Special Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "17-01-2012 ",
+        "Effective_Date": " 25-01-2012 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "17-10-2011 ",
+        "Effective_Date": " 25-10-2011 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "14-07-2011 ",
+        "Effective_Date": " 28-07-2011 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " - ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "21-04-2011 ",
+        "Effective_Date": " 08-06-2011 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 800.00 ",
+        "Remarks": " Rs.8.00 per share(800%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "17-01-2011 ",
+        "Effective_Date": " 27-01-2011 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 200.00 ",
+        "Remarks": " Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "21-10-2010 ",
+        "Effective_Date": " 01-11-2010 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 200.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "15-07-2010 ",
+        "Effective_Date": " 29-07-2010 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 200.00 ",
+        "Remarks": " - ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "19-04-2010 ",
+        "Effective_Date": " 15-06-2010 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 1400.00 ",
+        "Remarks": " Rs.10.00 per share(1000%) Special Dividend & Rs.4.00 per share(400%)Final Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "15-01-2010 ",
+        "Effective_Date": " 27-01-2010 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 200.00 ",
+        "Remarks": " Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "20-10-2009 ",
+        "Effective_Date": " 28-10-2009 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 200.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "20-07-2009 ",
+        "Effective_Date": " 27-07-2009 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 200.00 ",
+        "Remarks": " - ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "21-04-2009 ",
+        "Effective_Date": " 16-06-2009 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " & Bonus Issue ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "07-01-2009 ",
+        "Effective_Date": " 28-01-2009 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "14-10-2008 ",
+        "Effective_Date": " 29-10-2008 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "17-07-2008 ",
+        "Effective_Date": " 29-10-2008 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "08-07-2008 ",
+        "Effective_Date": " 31-07-2008 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " - ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "21-04-2008 ",
+        "Effective_Date": " 18-06-2008 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " - ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "08-01-2008 ",
+        "Effective_Date": " 23-01-2008 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "03-10-2007 ",
+        "Effective_Date": " 22-10-2007 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "06-07-2007 ",
+        "Effective_Date": " 27-07-2007 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " - ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "16-04-2007 ",
+        "Effective_Date": " 15-06-2007 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 400.00 ",
+        "Remarks": " AGM ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "08-01-2007 ",
+        "Effective_Date": " 22-01-2007 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Third Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "09-10-2006 ",
+        "Effective_Date": " 23-10-2006 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "11-07-2006 ",
+        "Effective_Date": " 28-07-2006 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Interim Dividend (Pre Bonus) & Bonus issue ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "17-04-2006 ",
+        "Effective_Date": " 16-06-2006 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 450.00 ",
+        "Remarks": " Final Dividend of Rs.4.50  per equity share of Re.1/- each ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "04-01-2006 ",
+        "Effective_Date": " 18-01-2006 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Third Interim Dividend of Rs.3.00 per equity share of Re.1/- each. ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "04-10-2005 ",
+        "Effective_Date": " 18-10-2005 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "18-07-2005 ",
+        "Effective_Date": " 18-08-2005 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " - ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "19-04-2005 ",
+        "Effective_Date": " 06-07-2005 ",
+        "Dividend_Type": " Final ",
+        "Dividend_percentage": " 500.00 ",
+        "Remarks": " AGM ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "13-01-2005 ",
+        "Effective_Date": " 03-02-2005 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 350.00 ",
+        "Remarks": " Second Interim Dividend ",
+        "": " "
+    },
+    {
+        "Announcement_Date": "14-10-2004 ",
+        "Effective_Date": " 28-10-2004 ",
+        "Dividend_Type": " Interim ",
+        "Dividend_percentage": " 300.00 ",
+        "Remarks": " - ",
+        "": " "
+    }
+]

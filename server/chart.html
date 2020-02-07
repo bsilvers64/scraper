@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<!-- //http://127.0.0.1:8887/chart.html -->
+<html>
+<head>
+<script type="text/javascript">
+window.onload = function() {
+
+var dataPoints = [];
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+
+	theme: "light2",
+	title: {
+		text: "tcs garph"
+	},
+	axisY: {
+		title: "DIVIDENT",
+		titleFontSize: 24
+	},
+	axisX: {
+		title: "YEAR",
+		titleFontSize: 24
+	},data: [{
+		type: "bar",
+
+		dataPoints: dataPoints
+	}]
+});
+
+function addData(data) {
+	for (var i = 0; i < data.length; i++) {
+			var p=parseInt(data[i].Dividend_percentage);
+		dataPoints.push({
+			label: data[i].Announcement_Date,
+
+			y: p
+		});
+	}
+	chart.render();
+
+}
+
+$.getJSON("tcs.json", addData);
+
+}
+</script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+<div id="chartContainer" style="height: 500px; width: 100%;"></div>
+<a href="chart2.html"><button class="new" style="background-color: blue;text-align: center; padding: 30px; color:white;">pie graph</button></a>
+</body>
+</html>
