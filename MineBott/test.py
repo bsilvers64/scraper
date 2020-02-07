@@ -1,12 +1,22 @@
-from flask import Flask , render_template
+from flask import Flask , render_template,redirect, url_for, request ,jsonify
 from scraper2 import getpage
 import sys
 import csv
 import csv2json
 app=Flask(__name__)
+@app.route('/json')
+def json():
+    with open('tcs.json', 'r') as f:
+        distros_dict = json.load(f)
+        return jsonify(distros_dict)
+@app.route('/success')
+def success():
+    return render_template('chart.html')
 
-@app.route('/')
+@app.route('/home')
 def hello_world():
+    user = request.args.get('cname')
+    print(user)
     data = []
 
     # reading the csv file -
@@ -21,7 +31,7 @@ def hello_world():
     temp = []
     # taking company name input -
     col = [x[0].strip() for x in data if x[0]]
-    name = input("enter a company name : ").lower()
+    name = user
     if name in col:
         for x in range(0, len(data)):
             if name in data[x][0]:
@@ -48,8 +58,8 @@ def hello_world():
     comp_name, comp_name2 = '', ''
     comp_name += found[0].strip() + '.txt'
     comp_name2 += found[0].strip() + '.csv'
-    f = open(comp_name, "+w")
-    g = open(comp_name2, "+w")
+    f = open(comp_name, "w")
+    g = open(comp_name2, "w")
 
     page = getpage(url)
     info = page.find('div', {'class': 'main_wrapper_res corporate-wrapper'})
@@ -76,11 +86,19 @@ def hello_world():
     table_head = div_page.find('table', {'class': 'mctable1'}).thead.tr
     rows = table_head.find_all('th')
     for i in rows:
-        print(i.get_text(), end=",")
-        f.write(i.get_text())
-        f.write(",")
-        g.write(i.get_text())
-        g.write(",")
+        if "(%)" in i.get_text():
+            print((i.get_text()).replace(" (%)", "_percentage"), end=",")
+            g.write((i.get_text()).replace(" (%)", "_percentage"))
+            g.write(",")
+            f.write((i.get_text()).replace("(%)", "percentage"))
+            f.write((i.get_text()).replace(" ", "_"))
+            f.write(",")
+        else:
+            print((i.get_text()).replace(" ", "_"), end=",")
+            g.write((i.get_text()).replace(" ", "_"))
+            g.write(",")
+            f.write((i.get_text()).replace(" ", "_"))
+            f.write(",")
     print("\n")
     f.write("\n")
     g.write("\n")
@@ -101,6 +119,7 @@ def hello_world():
     comp_name3 = comp_name2
     comp_name2 = comp_name2.replace('.csv', '.json')
     csv2json.convert(comp_name3, comp_name2)
-    return render_template('index.html')
+
+    return redirect(url_for('success'))
 
 app.run()
