@@ -45,8 +45,8 @@ else:
 comp_name, comp_name2 = '', ''
 comp_name += found[0].strip()+'.txt'
 comp_name2 += found[0].strip()+'.csv'
-f = open(comp_name, "+w")
-g = open(comp_name2, "+w")
+f = open(comp_name, "w")
+g = open(comp_name2, "w")
 
 
 page = getpage(url)
@@ -76,11 +76,19 @@ for i in divpage_head.find_all('p'):
 table_head = div_page.find('table', {'class': 'mctable1'}).thead.tr
 rows = table_head.find_all('th')
 for i in rows:
-    print(i.get_text(),end=",")
-    f.write(i.get_text())
-    f.write(",")
-    g.write(i.get_text())
-    g.write(",")
+    if "(%)" in i.get_text():
+        print((i.get_text()).replace(" (%)", "_percentage"),end=",")
+        g.write((i.get_text()).replace(" (%)", "_percentage"))
+        g.write(",")
+        f.write((i.get_text()).replace("(%)", "percentage"))
+        f.write((i.get_text()).replace(" ", "_"))
+        f.write(",")
+    else :
+        print((i.get_text()).replace(" ", "_"), end=",")
+        g.write((i.get_text()).replace(" ", "_"))
+        g.write(",")
+        f.write((i.get_text()).replace(" ", "_"))
+        f.write(",")
 print("\n")
 f.write("\n")
 g.write("\n")
