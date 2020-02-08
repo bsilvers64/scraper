@@ -1,14 +1,26 @@
+import os
+
 from flask import Flask , render_template,redirect, url_for, request ,jsonify
 from scraper2 import getpage
+import  json
 import sys
 import csv
 import csv2json
-app=Flask(__name__)
+app=Flask(__name__,static_url_path='/static')
+
+@app.route('/')
+def starter():
+   return render_template('index.html')
+
+@app.route('/json1')
+def load():
+    return "<a href=%s>file</a>" % url_for('static', filename='tcs.json')
+
 @app.route('/json')
 def json():
-    with open('tcs.json', 'r') as f:
-        distros_dict = json.load(f)
-        return jsonify(distros_dict)
+  return "<a href=%s>file</a>" % url_for('static', filename='tcs.json')
+
+
 @app.route('/success')
 def success():
     return render_template('chart.html')
