@@ -6,8 +6,7 @@ import docx
 def getpage(url):        #returns a bs4 object of any url passed
     # added header for fake user-agent
     # replace this with user-agent of your system. find it at - https://www.whatismybrowser.com/detect/what-is-my-user-agent
-    headers = {
-        "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 OPR/66.0.3515.44'}
+    headers = { #enter user-agent here }
     try:
         res = requests.get(url, headers=headers)
     except requests.ConnectionError as e:
