@@ -9,7 +9,7 @@ url = 'https://www1.nseindia.com/sme/marketinfo/corporates/actions/latestCorpAct
 
 #added header for fake user-agent
 #replace this with user-agent of your system. find it at - https://www.whatismybrowser.com/detect/what-is-my-user-agent
-headers = {"User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 OPR/66.0.3515.44'}
+headers = { #enter user-agent here }
 
 f = open("compdata.text", '+a')
 title = doc.add_paragraph("the data is in this format : -\n(Symbol)---(Company Name)---(Series)---(Face Value)---(Purpose)---(Ex-Date)---(Record Date)---(BC Start-Date)---(BC End-Date)---(ND Start Date)---(ND End Date)")
